@@ -27,7 +27,7 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://clipeum1-postgresql:5432/sampleapp
+        url: jdbc:postgresql://clipeum-postgresql:5432/sampleapp
         username: sampleapp
         password: sampleapp
     jpa:
