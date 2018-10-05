@@ -76,8 +76,6 @@ liquibase:
 # ===================================================================
 server:
     port: 8080
-    servlet:
-            contextPath: /springbootapp
 
 # ===================================================================
 # JHipster specific properties
