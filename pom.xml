@@ -688,6 +688,7 @@
                 </dependency>
             </dependencies>
             <build>
+                <finalName>ROOT</finalName>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -696,7 +697,6 @@
                         <configuration>
                             <failOnMissingWebXml>false</failOnMissingWebXml>
                             <warSourceDirectory>target/www/</warSourceDirectory>
-                            <warName>ROOT</warName>
                             <webResources>
                                 <resource>
                                     <directory>src/main/webapp</directory>
